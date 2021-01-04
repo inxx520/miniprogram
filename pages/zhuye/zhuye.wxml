@@ -1,0 +1,32 @@
+<view class='carousel'> 
+<swiper class='carousel_swiper' indicator-dots="true" indicator-color="#f4f4f4" indicator-active-color="#4eb8b8" autoplay="true" interval='2000' circular='true'>
+<block wx:for="{{list_data}}" wx:key="key">
+
+<swiper-item bindtap='chomeCarouselClick' data-url='{{item.SPID}}'> 
+
+<image class="carouselImg" src='{{item.SPPIC}}' mode='aspectFill' ></image>
+</swiper-item> 
+</block>
+</swiper>
+</view>
+
+<navigator url ="/pages/rubbishx/rubbishx" style="display:block;height:30px;width: 100%;hover-class:none"><image class="tit-icon" src="/images/bar/fl.png"></image> <view class="tit">垃圾分类</view></navigator>
+<view class="ljbox">
+
+<view class="lj-inbox" style="margin-left: 4%;"><navigator url ="/pages/rubbishx/rubbishx" style="display: block;"><image class="img-lj" src="/images/bar/khs2.png"style="border-radius:5px;"></image></navigator></view>
+<view class="lj-inbox" style="margin-left: 15%;"><navigator url ="/pages/rubbishx/rubbishx"><image class="img-lj" src="/images/bar/yhlj2.png"></image></navigator></view>
+<view class="lj-inbox"style="margin-left: 15%; margin-top:30px;"><navigator url ="/pages/rubbishx/rubbishx"><image class="img-lj" src="/images/bar/glj2.png" ></image></navigator></view>
+<view class="lj-inbox"style="margin-left: 15%;"><navigator url ="/pages/rubbishx/rubbishx"><image class="img-lj" src="/images/bar/slj2.png"></image></navigator></view>
+</view>
+
+<navigator url ="/pages/rubbishx/slj" style="display:block;height:30px;width: 100%;margin-top:30px;">
+<image class="tit-icon" src="/images/bar/rm.png" style="height: 25px;width: 25px;"></image><view class="tit">热门话题</view></navigator>
+
+<view class="xwbox">
+<view class="leftbox"><image class="img-lbox" src="/images/bar/xw.png"></image></view>
+<view class="rightbox"><view class="r-tit" >#垃圾分类那些事#</view><view class="r-con">垃圾分类是对垃圾收集处置的传统方式的改革创新...</view></view>
+</view>
+<view class="xwbox">
+<view class="leftbox"><image class="img-lbox" src="/images/bar/tou1.png" style="position:relative;top:-13px;"></image></view>
+<view class="rightbox"><view class="r-tit" >#垃圾分类小口诀#</view><view class="r-con">垃圾分类是对垃圾收集处置的传统方式的改革创新...</view></view>
+</view>

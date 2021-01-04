@@ -1,0 +1,43 @@
+<!--pages/zhuce/zhuce.wxml-->
+<!--<text>pages/zhuce/zhuce.wxml</text>-->
+
+<view class="content">
+<form bindsubmit="formSubmit" bindreset="formReset">
+
+  <view class="hr"></view>
+      <view class="item">
+         <input type="text" name="userschool" placeholder="请输入学校全称 / 居住地址" placeholder-class="holder" bindblur="accountblur"/>
+      </view>
+      <view class="item">
+         <input type="number" name="usersnum" placeholder="请输入学号" placeholder-class="holder" bindblur="accountblur"/>
+      </view>
+      <view class="item">
+         <input type="text" name="logName" placeholder="请真实姓名" placeholder-class="holder" bindblur="accountblur"/>
+      </view>
+      <view class="item1">
+        <view class="name">性别</view>
+         <view class="box">
+           <radio-group name="sex">
+              <checkbox value="男">男</checkbox>
+              <checkbox value="女">女</checkbox>
+           </radio-group>
+         </view>
+      </view>
+      <view class="item">
+         <input type="text" name="email" placeholder="请输入电子邮箱" placeholder-class="holder" bindblur="accountblur"/>
+      </view>
+      <view class="item flex">
+     <input type="text" password name="password"  placeholder="请设置6-20位登录密码" placeholder-class="holder"/>
+     <switch type="switch" name="switch"/>
+      </view>
+    <view class="item">
+      <input type="text" name="mobile" placeholder="请输入手机号" placeholder-class="holder" />
+    </view>
+     <!-- <button class="btn" disabled="{{disabled}}" type="{{btnstate}}"  form-type="submit">注册</button> -->
+     <button class="btn" disabled="{{disabled}}"   form-type="submit">注册</button> 
+      <view class="xieyi">
+     <text class="agree">注册即视为同意</text><text class="opinion">《绿色校园用户注册协议》</text>
+      </view>
+
+</form>
+</view>

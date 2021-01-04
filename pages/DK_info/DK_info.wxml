@@ -1,0 +1,23 @@
+<!--pages/DK_info/DK_info.wxml-->
+
+   <view  class='daka-box' wx:for="{{list_data}}" wx:key="key" >
+  <navigator class="goto-gps" url ="/pages/gps/gps?ID={{item.SPID}}" open-type = "redirect" wx:if="{{item.SPCHECK==0}}">打卡</navigator>
+   <a class="goto-gps"  open-type = "redirect" wx:if="{{item.SPCHECK==1}}">已打卡</a>
+
+   <view class='list-xqbox'style="box-shadow: 0px -7px 20px -10px rgba(68, 158, 140, 0.795);">
+   <view class='list-xqtit'><view class="img"><image src="/images/bar/ph.png"></image></view><text class="txt-l"style=" margin-left: 10px;font-size:18px;"> 排行榜</text></view>
+         <view class='underline'></view>
+  <view class="imgbox"><image  class="img-tx" src="/images/bar/tx1.jpeg"></image><image   class="img-tx" src="/images/bar/tx2.jpeg"></image><image  class="img-tx"  src="/images/bar/tx3.jpeg"></image><image  class="img-tx"  src="/images/bar/tx4.jpeg"></image><button class="more">></button></view>
+  </view>      
+  <view class='list-xqbox'>
+       <view class='list-xqtit'><view class="img"><image src="/images/bar/sj2.png"></image></view><text class="txt-l" style=" margin-left: 10px; font-size: 18px;"> 数据统计</text></view>
+         <view class='underline'></view>
+
+        <view class='list-xq'><view class="img"><image src="/images/bar/rs.png"></image></view><text class="txt-l"style="color:#103E26" >参与人数</text><view class="txt-r"><text style="color:#FFCC33">{{item.SPKC}}人</text></view></view>
+          <view class='underline'></view>
+        <view class='list-xq'><view class="img"><image src="/images/bar/rl.png"></image></view><text class="txt-l"style="color:#103E26">加入天数</text><view class="txt-r"><text style="color:#FF9900">{{item.SPNUM}}天</text></view></view>
+          <view class='underline'></view>
+          <view class='list-xq'><view class="img"><image src="/images/bar/xj.png"></image></view><text class="txt-l"style="color:#103E26">活动星级</text><view class="txt-r"><text  style="color:#FF0033">{{item.SPJG}}分</text></view></view>
+          <view class='underline'></view>
+      </view>    
+</view>

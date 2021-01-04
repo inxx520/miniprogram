@@ -1,0 +1,133 @@
+/* pages/me/me.wxss */
+/*.content{
+  background-image: url('http://m.qpic.cn/psb?/V10Evvex0VOqRP/21U.iRAo5sZTstvzEbCrvS.euSugYwuid617D*oSIiw!/b/dLYAAAAAAAAA&bo=OARuBwAAAAARB2U!&rf=viewer_4');
+  background-size:100% 105%;
+  -moz-background-size:100% 105%;
+}*/
+.bg{
+  width: 100%;
+  height: 150px;
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin-buttom: 15px;
+  margin-top: 20%;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: rgba(170, 170, 170, 0);
+  font-size:14px;
+}
+#userinfo{
+  margin-top: -15px;
+  margin-bottom:60px;
+  position: relative;
+  left: -80px;
+  width: 60px;
+  height:60px;
+  border-radius:50%;
+  display: flex;
+  overflow:hidden;
+  
+}
+.uname{
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size:17px;
+  color: #444444;
+}
+
+ 
+.head{
+  display: flex;
+  flex-direction: row;
+  color: #444444;
+}
+.head image{
+  border-radius: 50%;
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.login{
+  color: #444444;
+  font-size: 15px;
+  position: absolute;
+  margin-left: 30%;
+  margin-top:35px;
+}
+.detail{
+  color: #444444;
+  font-size: 15px;
+  position: absolute;
+  right: 10px;
+  margin-top:30px;
+}
+.count{
+  margin-top:10px;
+  display: flex;
+  flex-direction: row;
+}
+.desc{
+  width:33%;
+  text-align: center;
+  font-size: 13px;
+  color: #444444;
+  line-height: 20px;
+  border-right: 1px solid #cccccc;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.nav-item{
+  width:33%;
+  font-size: 13px;
+  padding-top:10px;
+  padding-bottom: 10px;
+  color: #444444;
+}
+.hr{
+  width:100%;
+  height: 15px;
+  background-color: #F4F5F6;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  color: #444444;
+}
+.title{
+  padding-top:15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+.detail2{
+  font-size: 15px;
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  line-height: 50px;
+  color: #888888;
+}
+.line{
+  border: 1px solid #cccccc;
+  opacity: 0.2;
+  margin-left:5%;
+  width: 90%;
+}
+.hr1{
+  width:100%;
+  height: 10%;
+  background-color: #F4F5F6;
+}

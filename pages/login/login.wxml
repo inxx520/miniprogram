@@ -1,0 +1,30 @@
+<!--pages/login/login.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view class="container">
+  <view class="logo"><open-data type="userAvatarUrl" class="userinfo" id="userinfo"></open-data></view> 
+
+  <view class="account">
+    <!--<view class="title">账号</view>-->
+    <view class="num"><input  name="loginName" bindinput="accountInput" placeholder="用户名/邮箱/手机号" placeholder-style="color:#999999;"/></view>
+  </view>
+  <view class="hr"></view>
+   <view class="account">
+    <!--<view class="title">密码</view>-->
+    <view class="num"><input name="password"  bindblur="pwdBlur" placeholder="请输入密码" password placeholder-style="color:#999999;"/></view>
+    <!--<view class="see">
+      <image src="/images/see.jpg" style="width:42px;height:30px;"></image>
+    </view>-->
+  </view>
+  <view class="hr"></view>
+  <button class="btn" disabled="{{disabled}}" type="{{btnstate}}"  form-type="submit" style="background-color: #4AB09C;color: white">登  录</button>
+  <view class="operate">
+     <view class="kszc"><navigator url="../zhuce/zhuce"  >快速注册  </navigator></view>
+     <!-- <view class="zhmm"><navigator  open-type="switchTab" url="../index/index">  找回密码</navigator></view> -->
+  </view>
+  <!-- <view class="login">
+    <view><image src="/images/bar/wechat.png" style="width:40px;height:40px;"></image></view>
+    <view><image src="/images/bar/webo.png" style="width:40px;height:40px;"></image></view>
+     <view><image src="/images/bar/QQ.png" style="width:40px;height:40px;"></image></view>
+  </view> -->
+</view>
+</form>

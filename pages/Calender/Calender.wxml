@@ -1,0 +1,39 @@
+<!--pages/pictruesign/pictrue.wxml-->
+<view class='gs_banner'>
+    <calendar selected="{{selected}}" bindselect="bindselect" bindgetdate="bindgetdate" />
+
+<view class='gs_sign'>
+    <view class='gs_sign_box'>
+        
+       
+        <view class='gs_sign_content'>
+            <view class='gs_week'>
+                <block wx:for="{{week}}" wx:key="index">
+                    <view class='gs_wook'>
+                        <view style='width: {{ sysW }}px; height: {{ sysW }}px; line-height: {{ sysW }}px;'>{{item.wook}}</view>
+                    </view>
+                </block>
+            </view>
+            <view class='gs_week'>
+                <block wx:for="{{day}}" wx:key="index">
+                    <view class='gs_wook' style='width: {{ sysW }}px; height: {{ sysW }}px; line-height: {{ sysW }}px;'>
+                        <view  class="{{ item.wook ==  getDate ? 'dateOn' : ''}}}">{{item.wook}}</view>
+                        <view class='gs_clocksucceed' wx:if="{{item.src}}"><image src='{{item.src}}'></image></view>
+                    </view>
+                </block>
+            </view>
+           
+        </view>
+    </view>
+</view>
+    <view class='gs_continue'>
+        <view>每日坚持签到</view>
+        <view>总共签到：<text>20</text>天</view>
+    </view>
+
+</view> 
+ <view class='gs_sign_day'>
+      
+            <view>持续签到 <text>2</text>天</view>
+        </view>
+        

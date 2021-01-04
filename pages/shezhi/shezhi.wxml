@@ -1,0 +1,62 @@
+<!--pages/shezhi/shezhi.wxml-->
+<!--<text>pages/shezhi/shezhi.wxml</text>-->
+ <view class="hr"></view>
+  <view class="item">
+     <view class="title">手机号</view>
+     <view class="detail2">
+       <text>18912345678  ></text>
+     </view>
+  </view>
+  <view class="line"></view>
+  <view class="item">
+     <view class="title">邮箱号</view>
+     <view class="detail2">
+       <text>去绑定  ></text>
+     </view>
+  </view>
+    <view class="line"></view>
+  <view class="item">
+     <view class="title">登录密码</view>
+     <view class="detail2">
+       <text> ></text>
+     </view>
+  </view>
+  <view class="hr"></view>
+    <view class="item">
+     <view class="title">个人认证</view>
+     <view class="detail2">
+       <text>个人认证  ></text>
+     </view>
+  </view>
+    <view class="line"></view>
+    <view class="item">
+     <view class="title">推送通知</view>
+     <view class="detail2">
+       <switch type="switch" />
+     </view>
+  </view>
+  <view class="hr"></view>
+  <view class="item" bindtap="about">
+     <view class="title">关于本机</view>
+     <view class="detail2">
+       <text> ></text>
+     </view>
+  </view>
+  <view class="line"></view>
+  <view class="item" bindtap="ame">
+     <view class="title">关于我们</view>
+     <view class="detail2">
+       <text>  ></text>
+     </view>
+  </view>
+
+  <view class="hr"></view>
+  <view class="item">
+     <view class="title">退出</view>
+     <view class="detail2">
+       <text> ></text>
+     </view>
+  </view>
+   <view class="line"></view> 
+
+    <view class="hr1"></view>

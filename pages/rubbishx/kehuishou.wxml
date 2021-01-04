@@ -1,0 +1,32 @@
+<view class="item" bindtap="seeDetail">
+  <view class="pic">
+    <image src="/images/list/khs1.png" style="width:120px;height:120px;"></image>
+  </view>
+  <view class="info">
+      <text style=" line-height: 55px;color: #ffffff;font-weight: bold; font-size: 18px;">可回收物</text>
+    <view class="desc">
+       <text>可回收物就是可以再生循环的垃圾。本身或材质可再利用的纸类、硬纸板、玻璃、塑料、金属、塑料包装。</text>
+    </view>
+  </view>
+</view>
+<view class="zong">
+<view class="hr"></view>
+<view class="title">投放要求</view>
+<view class="xqq">轻投轻放，清洁干燥，避免污染</view>
+<view class="xqq">废纸尽量平整</view>
+<view class="xqq">立体包装物请清空内容物，清洁后压扁投放</view>
+<view class="xqq">有尖锐边角的，应包裹后投放</view>
+<view class="hr"></view>
+<view class="title">处置方法</view>
+<view class="xqq">尽量保持清洁，牛奶盒、玻璃瓶、塑料瓶、食品塑料托盘等可以简单清洗沥干并压扁</view>
+<view class="xqq">投放时可按照材质分别打包，单独投放至社区专门的可回收物桶中</view>
+<view class="hr"></view>
+<view class="title">常见物品</view>
+<view class="xqq">主要包括废纸、塑料、玻璃、金属和纺织物五大类生活垃圾</view>
+<view class="xqq">纸类：未严重玷污的文字用纸、包装用纸和其他纸制品等。如报纸、各种包装纸、办公用纸、广告纸片、纸盒、复印纸等</view>
+<view class="xqq">塑料：废容器塑料、包装塑料等塑料制品。比如各种塑料袋、塑料瓶、泡沫塑料、一次性塑料餐盒餐具、硬塑料等</view>
+<view class="xqq">玻璃：有色和无色废玻璃制品</view>
+<view class="xqq">金属：各种类别的废金属物品。如易拉罐、铁皮罐头盒、铅皮牙膏皮等</view>
+<view class="xqq">织物：旧纺织衣物和纺织制品</view>
+<view class="hr"></view>
+</view>

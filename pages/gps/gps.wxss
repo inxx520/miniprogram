@@ -1,0 +1,95 @@
+/* pages/gps/gps.wxss */
+.wbtn{
+  width: 100%;
+  margin:0 auto
+  
+}
+
+.btn{
+
+    width:70px;
+    height: 70px;
+   border-radius: 50%;
+   text-align: center;
+   margin-bottom: 10%;
+display: flex;
+justify-content: center;
+align-items: center;
+bottom:0;
+position:fixed;
+margin-left:40%;
+box-shadow: 0px 0px 5px 5px rgba(82, 194, 172, 0.534);
+}
+.btn_hover{
+
+box-shadow: 0px 0px 10px 10px rgba(68, 158, 140, 0.795);
+	transition: box-shadow 0.5s;
+}
+
+ .jd{
+    color: #777777;
+  font-size:16px;
+   display:inline-block;
+text-align:left; margin-left: 50px;
+
+
+} 
+ .wd{
+   margin-top: 10px;
+  color: #777777;
+  font-size:16px;
+  display:inline-block;
+text-align:left; 
+ margin-left: 50px;
+} 
+.jwd{
+display:block;
+float:right;
+margin-top: -60px;
+margin-bottom: 20px;
+}
+.jl{
+  color: #4AB09C;
+  margin-top: 30px;
+  margin-left: 20px;
+   font-size:30px;
+}
+.jl2{
+   color: #adadad;
+  font-size:14px;
+   margin-left: 60px;
+   padding-top: 5px;
+}
+.underline{
+border-bottom: 1px  #a0a0a0 solid;
+width:100%;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.daka{
+  border-top-left-radius:0px;
+  border-top-right-radius:0px;
+  border-bottom-left-radius:7px;
+  border-bottom-right-radius:7px;
+  width:100%;
+background-color:rgba(255, 255, 255, 0.932);
+position:fixed;
+top:0;
+
+//box-shadow: 0px 0px 20px #2e667073;
+
+}
+.img{
+  margin-top: -5px;
+  padding-right: 5px;
+  height: 30px;
+  width: 30px;
+    display:block;
+    float: left;
+}
+.img image{
+   
+  height: 30px;
+  width: 30px;
+}

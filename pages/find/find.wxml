@@ -1,0 +1,20 @@
+<!--pages/find/find.wxml-->
+  <view class="bg">
+    <view class="name">垃圾分类</view>
+    <view class="search">
+       <view>
+         <image src="/images/list/sousuo.png" style="width:14px;height:14px"></image>
+       </view>
+       <view>
+         <input type="text" placeholder="想搜什么，就搜什么"/>
+       </view>
+    </view>
+  </view>
+<view class="content">
+  <view class="find">
+    <text>报纸</text>
+  </view>
+  <view class="result">
+    <text>可回收物</text>
+  </view>
+</view>

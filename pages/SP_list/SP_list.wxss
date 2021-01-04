@@ -1,0 +1,83 @@
+/* pages/SP_list/SP_list.wxss */
+page{background-color:#F8F8F8;
+}
+
+.list-box{
+ /* display: flex;
+flex-wrap: wrap;
+flex-direction:row;
+align-items:center;
+margin: 0 auto;
+justify-content:  space-around;
+ width:100%; 
+ 
+display:inline-block;
+border: 2px solid red; */
+}
+
+
+.sp-box{
+/* float:left;
+flex-grow: 1;
+flex-direction: row;
+position: relative;
+margin: 10% 1% 1% 0;
+background-color: 		#F0F0F0;
+
+width: 100%; */
+
+
+}
+image{
+display: flex;
+position: relative;
+margin: 0 auto;
+width:100%; 
+}
+.list-tit{
+  text-align : center;
+  color:#808080;
+  font-size:16px;
+}
+
+.list-text{
+  height: 20%;
+  padding-top: 10px;
+  background-color:	#FFFFFF;
+}
+.list-jg{
+  float: left;
+  font-size:12px; 
+  color:#4AB09C;
+    padding-left: 10px;
+    padding-top: 10px;
+  padding-bottom: 10px;
+  
+}
+.list-kc{
+  float: right;
+  font-size:12px; 
+  color:#4AB09C;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contet {
+    column-count: 2;    
+    /* column-gap: 1%; */
+    width: 100%;
+ 
+}
+.list-box{
+    background: #fff;
+    width: 320rpx;
+    display: inline-block; /*内部卡片需要设置为inline-block,否则会截断显示，如图一*/
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* padding: 20rpx 15rpx; */
+    margin-bottom:10%;
+    margin-top: 10%;
+    margin-left: 5%;
+  
+}

@@ -1,0 +1,24 @@
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    
+  </view>
+
+   <input class="input1" name="phone" placeholder="手机 / 邮箱 / 用户名 "  placeholder-class="holder"bindinput="phoneInput"/>
+  <view class='line1'></view>
+    <input class="input2" name="yzm" placeholder="密码"  placeholder-class="holder" bindinput="yzmInput"/>
+  <view class='line2'></view>
+
+<navigator bindtap='gotozhuce' class='to-zc'>没有账号？</navigator>
+<button class='btn1' bindtap='goToabout'>登录</button>
+<text class='text1'>-第三方登录-</text>
+</view>
+<view  class='Box'>
+<view class='Box1'>
+<view class='box1'><image src="/images/bar/wechat.png"></image></view><view class='box1'><image src="/images/bar/webo.png"></image></view><view class='box1'><image src="/images/bar/QQ.png"></image></view>
+</view>
+<view class='Box2'>
+<view class='box2'>微信</view><view class='box2'>微博</view><view class='box2'>QQ</view>
+</view>
+</view>

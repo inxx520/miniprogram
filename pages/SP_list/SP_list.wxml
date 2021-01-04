@@ -1,0 +1,18 @@
+<!--pages/SP_list/SP_list.wxml-->
+
+<view class='contet'>
+
+  <view class='list-box' wx:for="{{list_data}}"  wx:key="" >
+     <view class='sp-box'>
+      <navigator url ="/pages/SP_info/SP_info?ID={{item.SPID}}">
+     <view class='list-img'> <image   mode="widthFix" src='{{item.SPPIC}}'></image></view>
+     </navigator>
+      <view class="list-text">
+       <view class='list-tit'><text>{{item.SPMC}}</text></view>
+       <view class='list-jg'><text>日期:{{item.SPJG}}</text></view>
+       <view class='list-kc'><text>已打卡:{{item.SPKC}}</text></view>
+      </view>
+     </view>
+  </view>
+
+</view>

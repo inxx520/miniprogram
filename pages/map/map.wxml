@@ -1,0 +1,8 @@
+<!--pages/map/map.wxml-->
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" markers="{{markers}}" controls="{{controls}}" circles="{{circles}}" polyline="{{polyline}}" bindregionchange="regionChange" bindcontroltap='controlClick' style="width: 100%; height:400px;"></map>
+<view class="lis">
+<button class="btn" type='primary' bindtap='locationClick' style="background-color: #4AB09C;color: white;">定位位置</button>
+</view>
+<view class="lis">
+<button class="btn" type='primary' bindtap='selectedClick' style="background-color: #4AB09C;color: white;">选择位置</button>
+</view>

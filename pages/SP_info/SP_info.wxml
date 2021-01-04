@@ -1,0 +1,24 @@
+<!--pages/SP_info/SP_info.wxml-->
+<view class='body'>
+    <view class='list-head'></view>
+  <view class='list-box'>
+    <view class='list-li mflex' wx:for="{{list_data}}"  wx:key="" >
+    
+      <view > <image class='list-img'  mode="widthFix" src='{{item.SPPIC}}'></image></view>
+  
+      <view class='list-titbox'>
+        <view class='list-tit'><text>{{item.SPMC}}</text></view>
+        <button class='list-buy'><image  class='img-sc'src="/images/bar/sc.png"></image></button>
+        <view class='underline'></view>
+        <view class='list-jg'><text>参与人数：{{item.SPKC}} </text></view>
+        <view class='list-kc'><text> 评分：{{item.SPJG}}</text></view>
+         <navigator url ="/pages/DK_info/DK_info?ID={{item.SPID}}" open-type = "redirect"><button class='btn-dk' >我要参与</button></navigator>
+      </view>
+      <view class='list-xqbox'>
+       <view class='list-xqtit'><text>活动详情</text></view>
+         <view class='underline'></view>
+        <view class='list-xq'><text>{{item.SPXQ}} </text></view>
+      </view>
+    </view>
+  </view>
+</view>

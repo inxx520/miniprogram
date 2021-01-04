@@ -1,0 +1,76 @@
+
+<!-- 
+ * 日历选择组件
+ * selected [Arrey] 那些日期被选中
+ * bindselect [function] 日历是否被打开 
+ * bindgetdate [function] 当前选择的日期
+ * is-open [Boolean} 是否开启插入模式
+  -->
+<!-- <view class='other'>我是其他元素</view> -->
+<calendar selected="{{selected}}" bindselect="bindselect" bindgetdate="bindgetdate" />
+<!-- <view class='calendar_title flex_nowrap'>
+  <view class='icon' bindtap='lastMonth'>
+    <image src='/images/icon/28.png' />
+  </view>
+  <view>{{year}}年{{month}}月</view>
+  <view class='icon' bindtap='nextMonth'>
+    <image src='/images/icon/29.png' />
+  </view>
+</view> -->
+
+<!-- 日历主体 -->
+<view class='calendar'>
+  <view class='header'>
+    <view wx:for='{{date}}' wx:key='' class='{{(index == todayIndex) && isTodayWeek ? "weekMark" : ""}}'>{{item}}
+      <view></view>
+    </view>
+  </view>
+
+  <view class='date-box'>
+    <block wx:for='{{dateArr}}' wx:key=''>
+      <view class='{{isToday == item.isToday ? "nowDay" : ""}}'>
+        <view class='date-head' bindtap='lookHuoDong' data-year='{{year}}' data-month='{{month}}' data-datenum='{{item.dateNum}}'>
+          <view>{{item.dateNum}}</view>
+        </view>
+      </view>
+    </block>
+  </view>
+
+</view>
+
+<view class="img"><image src="/images/bar/dk.png"></image></view><view class="hd-tit">你已累计打卡10个活动！</view>
+    
+
+<view class='container'>
+ <view class="nav-item"><navigator url ="/pages/SP_list/SP_list" ><button class="btn-dk" bindtap="ondemo2">参与更多</button></navigator></view>
+  <!--Tab布局-->
+  <view class='title'>
+    <view class='titleSel' bindtap='titleClick' data-idx='0'>
+      <text>未打卡</text>
+      <hr class="{{0 == currentIndex ? 'headerLineSel' : 'headerLineUnsel'}}" />
+    </view>
+    
+    <view class='titleSel' bindtap='titleClick' data-idx='1'>
+      <text>已打卡</text>
+      <hr class="{{1 == currentIndex ? 'headerLineSel' : 'headerLineUnsel'}} " />
+    </view>
+  </view>
+
+  <!--内容布局-->
+  <swiper class='swiper' bindchange='pagechange' current='{{currentIndex}}'>
+    <swiper-item class='swiper'>
+      <view wx:for="{{list_data}}" class='recordItem'wx:if="{{item.SPCHECK==0}}">
+      <view class="img" ><image src="/images/bar/circle.png"style=" position: relative;top:-25px" ></image></view>
+        <view class='hd'>活动：{{item.SPMC}}</view>
+        <navigator  class='nav-dk' url ="/pages/DK_info/DK_info?ID={{item.SPID}}">去打卡 ></navigator>
+      
+      </view>
+    </swiper-item>
+    <swiper-item class='swiper' class='swiper'>
+<view wx:for="{{list_data}}" class='recordItem'wx:if="{{item.SPCHECK==1}}">
+            <view class="img"><image src="/images/bar/circle2.png"style=" position: relative;top:-25px"></image></view>
+        <view class='hd'>活动：{{item.SPMC}}</view>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

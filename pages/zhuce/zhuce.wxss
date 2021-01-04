@@ -1,0 +1,113 @@
+/* pages/zhuce/zhuce.wxss */
+page{
+  background-image:url("http://m.qpic.cn/psb?/V13K6Ifc2tviWw/37la854ohQ2dJBvXrhsJd43pwk6Dw6Y3SrlWp.qz7NM!/b/dE4BAAAAAAAA&bo=QAZfCdkNwxQRCS0!&rf=viewer_4");
+  background-size:100% 100% ;
+  
+ background-repeat: no-repeat;
+}
+
+.content{
+
+  margin: 0 auto;
+  margin-top: 20%;
+  width: 90%;
+  border-radius:10px;
+  background-color: white; 
+  box-shadow:0 4px 6px rgba(10, 16, 20, 0.363); 
+  background-image:src="/images/bar/zhucebj.png";
+  
+}
+
+.hr{
+    padding-top:30px;
+    /* margin-left: 30px;
+    font-style: 黑体; */
+}
+.item{
+    margin: 0 auto;
+     border:none;
+  border-bottom:1px solid #4AB09C;
+    /* border: 1px solid #cccccc; */
+    height: 40px;
+    width: 90%;
+    border-radius: 3px;
+    background-color: #ffffff;
+    margin-bottom:15px;
+}
+.item1{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    color: #666666;
+}
+.item input{
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+}
+.name{
+    margin-right:10%;
+    margin-left:5px;
+    width: 50px;
+    text-align: right;
+    height: 28px;
+    line-height: 28px;
+    font-size: 15px;
+}
+.holder{
+    font-size: 14px;
+    color: #999999;
+}
+.box{
+    font-size: 13px;
+    width: 90%;
+}
+.box checkbox{
+    margin-right: 15%;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.flex input{
+    width:300px;
+}
+.item switch{
+    margin-top: 5px;
+    margin-right:5px; 
+}
+
+.mobile input{
+    margin-top:8px;
+    margin-left:10px; 
+}
+.hideBg{
+    display: none;
+}
+
+.xieyi{
+  padding-bottom: 20px;
+    margin-top:15px;
+    margin-left:15px; 
+    font-size:13px;
+
+}
+.agree{
+   margin-left: 15%;
+   color: #666666;
+}
+.opinion{
+    color: #4AB09C;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.btn{
+    width:80%;
+    height: 45px;
+    line-height: 45px;
+    background-color: #4AB09C;
+    color: #ffffff;
+    border-radius: 30px;
+}
+

@@ -1,0 +1,82 @@
+/* pages/xwlist/xwlist.wxss */
+.content{
+  background-color: #ffffff;
+}
+.carousel{
+width: 90%;
+background-color: rebeccapurple;
+margin: 20px auto;
+border-radius:10px;
+}
+.carousel_swiper{
+width: 100%;
+height: 400rpx;
+display: block;
+position: relative;
+background: #f4f4f4;
+border-radius:50px;
+}
+.carouselImg{
+width: 100%;
+height: inherit;
+border-radius:10px;
+}
+.opr{
+  display: flex;
+  flex-direction: row;
+  width: 97%;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  width: 43%;
+  height: 46px;
+  margin: 0 auto;
+  margin-top: 10px;
+  justify-content:center;
+  align-items:center;
+  border-radius:5px; 
+  color: #444444;
+  margin-left:5%; 
+  background-color: #ececec;
+
+}
+.btn view{
+  margin: 0 auto;
+  margin-top:3px;
+  font-size: 17px;
+}
+.item{
+  display: flex;
+  flex-direction: row;
+  margin:15px;
+}
+.list{
+  margin-top: 40px;
+}
+.desc{
+  margin-left:20px;
+  line-height: 30px;
+}
+.title{
+  color: #333333;
+  font-size: 17px;
+}
+.count{
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  color: #666666;
+}
+.count image{
+  margin-left: 15px;
+  margin-right: 5px;
+  margin-top:6px;
+}
+.hr{
+  height: 1px;
+  background-color: #cccccc;
+  opacity: 0.5;
+  width: 90%;
+  margin-left:5%;
+}

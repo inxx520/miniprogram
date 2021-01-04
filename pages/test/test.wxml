@@ -1,0 +1,18 @@
+<!--pages/test/test.wxml-->
+<!--<text>pages/test/test.wxml</text>-->
+<view class='list-topic'><text>关于本机</text></view> 
+<!--<view class='list-con'><text>{{item}}</text ></view> 
+<view class='underline'></view>-->
+
+<view class="table">
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+    </view>
+    <view class="tr" wx:else>
+      <view class="td">{{item.code}}</view>
+      <view class="td">{{item.text}}</view>
+    </view>
+  </block>
+</view>

@@ -1,0 +1,15 @@
+<!--pages/test/test.wxml-->
+<!--<view class='logo'><image  src="/images/bar/logo.jpg"></image></view>-->
+<view class='about-headline'><text>关于我们</text></view> 
+<view class='underline'></view>
+<view class='about-title'>● 联系我们</view> 
+<view><image src="/images/bar/about_email.png" class='about-image'></image><text style="font-size:17px;">15323630795</text></view>
+<view><image src="/images/bar/about_phone.png"  class='about-image'></image><text style="font-size:17px;">15323630795@qq.com</text></view>
+
+<view class='about-title'>● 产品简介</view> 
+<view class='about-topic'>为加强绿色校园规划的指导力度，切实提高高校学生的绿色校园建设水平，为响应国家的号召，有效引导和推动垃圾分类措施的允许，促成人与校园和谐发展的格局，设计了这个绿色校园小程序。主要功能为学生提供垃圾分类查询服务，垃圾分类地点查询服务，还通过打卡功能提高学生垃圾分类的兴趣。</view> 
+
+<view class='about-title'>● 使用指南</view> 
+<view class='about-topic'>首页是有关于环保的新闻，环保小贴士等资讯，活动板块可实现参与校园内环保活动打卡，同时特别设计垃圾分类板块，用户可以通过输入垃圾名称或者垃圾种类进行检索和查询，通过gps定位可显示所在学校地区是否实行垃圾分类法，提醒用户遵守垃圾分类准则，在用户板块可以实现绑定邮箱手机，修改昵称等操作。</view> 
+<view class='underline'></view>
+<view class='about-undertext'><text>copyright 2019-2020 BNUZ.com All rights reserved</text ></view> 

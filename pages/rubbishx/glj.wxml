@@ -1,0 +1,31 @@
+<view class="item3" bindtap="seeDetail">
+  <view class="pic">
+    <image src="/images/list/ganlaji.png" style="width:120px;height:120px;"></image>
+  </view>
+  <view class="info">
+      <text style=" line-height: 55px;color: #ffffff;font-weight: bold; font-size: 18px;">干垃圾</text>
+    <view class="desc">
+       <text>干垃圾是对垃圾按照可回收垃圾、厨余垃圾、有害垃圾分类后剩余下来的一种垃圾。</text>
+    </view>
+  </view>
+</view>
+<view class="zong">
+<view class="hr"></view>
+<view class="title">投放要求</view>
+<view class="xqq">投放前尽量沥干水分</view>
+<view class="xqq">难以分辨类别的生活垃圾，投入干垃圾收集容器</view>
+<view class="hr"></view>
+<view class="title">处置方法</view>
+<view class="xqq">扔垃圾之前进行正确的分类</view>
+<view class="xqq">扔垃圾时投放入指定的位置</view>
+<view class="hr"></view>
+<view class="title">常见物品</view>
+<view class="xqq">主要包括砖瓦陶瓷、渣土、卫生间废纸、瓷器碎片等难以回收的废弃物</view>
+<view class="xqq">餐巾纸、卫生间用纸、尿不湿、猫砂、狗尿垫、污损纸张、烟蒂、干燥剂</view>
+<view class="xqq">污损塑料、尼龙制品、编织袋、防碎气泡膜</view>
+<view class="xqq">大骨头、硬贝壳、硬果壳（椰子壳、榴莲壳、核桃壳、玉米衣、甘蔗皮）、硬果实（榴莲核、菠萝蜜核）</view>
+<view class="xqq">毛发、灰土、炉渣、橡皮泥、太空沙、带胶制品（胶水、胶带）、花盆、毛巾</view>
+<view class="xqq">一次性餐具、镜子、竹制品（竹篮、竹筷、牙签）</view>
+<view class="xqq">成分复杂的制品（伞、笔、眼镜、打火机）</view>
+<view class="hr"></view>
+</view>

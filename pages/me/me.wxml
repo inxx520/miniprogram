@@ -1,0 +1,97 @@
+<!--pages/me/me.wxml-->
+<!--<text>pages/me/me.wxml</text>-->
+<view class="content">
+  <view class="bg">
+    <view class="head">
+       <view class="headIcon">
+          <image src="{{userInfo.avatarUrl}}" style="width:60px;height:60px;"></image>
+       </view>
+       <view class="login">
+           <view class="logo"><open-data type="userAvatarUrl" class="userinfo" id="userinfo"></open-data></view> 
+       </view>
+       <text class="uname">小仙女</text>
+       <view class="detail"><navigator url ="/pages/login/login"style="display: block;">
+       
+         <text>></text></navigator>
+       </view>
+    </view>
+    <view class="count">
+       <view class="desc">
+         <view>9</view>
+         <view>关注</view>
+       </view>
+       <view class="desc">
+         <view>200</view>
+         <view>积分</view>
+       </view>
+       <view class="desc" style="border:0px;">
+         <view>15</view>
+         <view>徽章</view>
+       </view>
+    </view>
+  </view>
+
+  <view class="nav">
+    <view class="nav-item">
+      <view>
+         <image src="/images/me/shoucang.png" style="width:23px;height:23px;"></image>
+      </view>
+      <view>收藏</view>
+    </view>
+
+    <view class="nav-item">
+     <navigator url ="/pages/daka/daka"style="display: block;"> <view>
+         <image src="/images/me/calendar.png" style="width:23px;height:23px;"></image>
+      </view>
+      <view>打卡</view>
+     </navigator>
+    </view>
+
+    <view class="nav-item">
+      <view>
+         <image src="/images/me/history.png" style="width:23px;height:23px;"></image>
+      </view>
+      <view>历史</view>
+    </view>
+  </view>
+  <view class="hr"></view>
+  <view class="item">
+     <view class="title">消息通知</view>
+     <view class="detail2">
+       <text>></text>
+     </view>
+  </view>
+
+  <view class="hr"></view>
+  <view class="item">
+     <view class="title">我的成就</view>
+     <view class="detail2">
+       <text> ></text>
+     </view>
+  </view>
+  <view class="line"></view>
+
+  <view class="hr"></view>
+  <view class="item">
+     <view class="title">青少年模式</view>
+     <view class="detail2">
+       <text>未开启 ></text>
+     </view>
+  </view>
+  <view class="line"></view>
+  <view class="item">
+     <view class="title">帮助与反馈</view>
+     <view class="detail2">
+       <text> ></text>
+     </view>
+  </view>
+   <view class="line"></view>
+  <view class="item" bindtap="setup">
+     <view class="title">系统设置</view>
+     <view class="detail2">
+       <text> ></text>
+     </view>
+  </view>
+<view class="line"></view>
+<view class="hr1"></view>
+</view>

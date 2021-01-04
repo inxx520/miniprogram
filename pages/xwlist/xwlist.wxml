@@ -1,0 +1,157 @@
+<!--pages/xwlist/xwlist.wxml-->
+<view class="content">
+  <view class="carousel">
+    <swiper class="carousel_swiper" autoplay="true" interval="3000" duration="1000" indicator-dots="{{indicatorDots}}">
+       <block wx:for="{{imgUrls}}">
+          <swiper-item>
+             <image src="{{item}}" width="350" height="250" class="carouselImg"></image>
+          </swiper-item>
+       </block>
+    </swiper>
+  </view>
+
+  <view class="opr">
+    <view class="btn">
+      <view>
+         <image src="/images/list/new.png" style="width:25px;height:25px;"></image>
+      </view>
+      <view>最新资讯</view>
+    </view>
+
+    <view class="btn">
+      <view>每日推荐</view>
+      <view>
+         <image src="/images/list/recommend.png" style="width:25px;height:25px;"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="list">
+     <view class="item" bindtap="seeDetail" id="0">
+       <view>
+          <image src="/images/list/lvse.jpg" style="width:78px;height:60px;"></image>
+       </view>
+       <view class="desc">
+         <view class="title">以“生态绿色”助力一体化</view>
+         <view class="count">
+         <view>人民网</view>
+            <view>
+              <image src="/images/list/fire.png" style="width:18px;height:18px;"></image>
+            </view>
+            <view>12659</view>
+            <view>
+              <image src="/images/list/talk.png" style="width:18px;height:18px;"></image>
+            </view>
+            <view>231</view>
+         </view>
+       </view>
+     </view>
+     <view class="hr"></view>
+
+     <view class="item" bindtap="seeDetail" id="1">
+       <view>
+          <image src="/images/list/weiqi.jpeg" style="width:78px;height:60px;"></image>
+       </view>
+       <view class="desc">
+         <view class="title">机动车尾气超标谁之过？</view>
+         <view class="count">
+            <view>中国环境报</view>
+            <view>
+              <image src="/images/list/fire.png" style="width:18px;height:18px;"></image>
+            </view>
+            <view>955</view>
+            <view>
+              <image src="/images/list/talk.png" style="width:18px;height:18px;"></image>
+            </view>
+            <view>215</view>
+         </view>
+       </view>
+     </view>
+     <view class="hr"></view>
+
+    <view class="item" bindtap="seeDetail" id="2">
+       <view>
+          <image src="/images/list/glass.jpg" style="width:78px;height:60px;"></image>
+       </view>
+       <view class="desc">
+         <view class="title">国家能源集团携手曲麻莱县完成33户牧民动迁15万亩草场禁牧</view>
+         <view class="count">
+            <view>人民网</view>
+            <view>
+              <image src="/images/list/fire.png" style="width:18px;height:18px;"></image>
+            </view>
+            <view>726</view>
+            <view>
+              <image src="/images/list/talk.png" style="width:18px;height:18px;"></image>
+            </view>
+            <view>325</view>
+         </view>
+       </view>
+     </view>
+     <view class="hr"></view>
+
+     <view class="item" bindtap="seeDetail" id="3">
+       <view>
+          <image src="/images/list/changjiang.jpeg" style="width:78px;height:60px;"></image>
+       </view>
+       <view class="desc" bindtap="xwxq">
+         <view class="title">用铁的纪律呵护绿水青山</view>
+         <view class="count">
+            <view>中国环境报</view>
+            <view>
+              <image src="/images/list/fire.png" style="width:18px;height:18px;"></image>
+            </view>
+            <view>5482</view>
+            <view>
+              <image src="/images/list/talk.png" style="width:18px;height:18px;"></image>
+            </view>
+            <view>525</view>
+         </view>
+       </view>
+     </view>
+     <view class="hr"></view>
+
+     <view class="item" bindtap="seeDetail" id="4">
+       <view>
+          <image src="/images/list/flower.jpg" style="width:78px;height:60px;"></image>
+       </view>
+       <view class="desc">
+         <view class="title">林山花海扮靓美丽滇池</view>
+         <view class="count">
+            <view>人民网</view>
+            <view>
+              <image src="/images/list/fire.png" style="width:18px;height:18px;"></image>
+            </view>
+            <view>5435</view>
+            <view>
+              <image src="/images/list/talk.png" style="width:18px;height:18px;"></image>
+            </view>
+            <view>169</view>
+         </view>
+       </view>
+     </view>
+     <view class="hr"></view>
+
+    <view class="item" bindtap="seeDetail" id="5">
+       <view>
+          <image src="/images/list/river.jpg" style="width:78px;height:60px;"></image>
+       </view>
+       <view class="desc">
+         <view class="title">山西分类整治汾河流域入河排污口</view>
+         <view class="count">
+            <view>中国环境报</view>
+            <view>
+              <image src="/images/list/fire.png" style="width:18px;height:18px;"></image>
+            </view>
+            <view>542</view>
+            <view>
+             <image src="/images/list/talk.png" style="width:18px;height:18px;"></image>
+            </view>
+            <view>35</view>
+         </view>
+       </view>
+     </view>
+     <view class="hr"></view>
+
+  </view>
+</view>

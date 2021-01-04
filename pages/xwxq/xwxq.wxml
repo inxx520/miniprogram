@@ -1,0 +1,68 @@
+<!--pages/xwxq/xwxq.wxml-->
+<view class="content">
+  <view class="title">用铁的纪律呵护绿水青山</view>
+  <view class="desc">
+    <view class="publish">
+      <view><image src="/images/list/hjb.png" style="width:36px;height:36px;"></image></view>
+      <view class="company">
+        <view>中国环境报</view>
+        <view class="attr">
+           <text class="time">2019-12-05 21:39</text>
+           <text class="mark">原创</text>
+        </view>
+      </view>
+    </view>
+    <view class="btn">
+      <image src='/images/list/guanzhu.png' bindtap="onCollect" style="width:35px;height:35px;margin-right:15px;"></image>
+    </view>
+  </view>
+  <view class="line"></view>
+  <view class="article">
+    <view>
+     中央生态环保督察工作启动以来，各级纪检监察机关立足“监督的再监督”这一定位，综合运用各种问责手段，查处了不少生态环境领域不担当不作为、形式主义、官僚主义突出问题，形成了强烈震慑。
+    </view>
+    <view>
+      为政之要，莫先乎人；成事之要，关键在人。”打好污染防治攻坚战，必须打造一支政治强、本领高、作风硬、敢担当，特别能吃苦、特别能战斗、特别能奉献的生态环保铁军，要把党员干部从政行为的纪律规矩红线和生态环境保护的政策法规红线一起抓、一起守，用铁的纪律为绿水青山保驾护航。
+    </view>
+    <view>
+     扭住主体责任“牛鼻子”。生态环境问责多发的症结之一，在于部分地方和单位的负责人政治站位不高，责任落实不够，队伍管理不严，管党治党失之于宽、松、软。要旗帜鲜明讲政治，督促主要负责人履行“第一责任人”责任、主管领导履行“一岗双责”责任，定期研究推动全面从严治党工作，亲自协调解决突出问题，对各种苗头性倾向性问题敢抓敢管，对各种错误言行敢于动真碰硬，把责任传导给全体干部，压实责任链条，以党纪法规的刚性约束强化领导干部的责任担当，确保生态文明建设责任落地落实。
+    </view>
+    <view>
+      瞄准风险防控“关键点”。权力失去监督是祸害，私欲失去控制是灾难。环评审批、环保项目、环境污染防治、环保设备采购等权力集中、资金密集环节是生态环保领域的高风险点，这些几乎无一例外都成了纪律底线的“突破点”。要在健全完善制度机制、堵塞漏洞、清除“污染源”上持续发力，在环评审批、项目资金分配、环境执法等领域进一步压缩腐败空间，防控风险点，筑牢防火墙，强化依法行政，促进规范透明执法，努力构建事前事中事后全过程监管体系，切实做到严防源头、严管过程、严惩恶果。
+    </view>
+    <view>
+      突出预警提醒“治未病”。卓有成效的预警警示教育，能使人融入身心、触及灵魂，乃至悬崖勒马、迷途知返。要充分融合生态环境工作特色，开展有针对性的廉政警示教育和专题纪律教育活动，增强防范教育实效性，让领导干部知敬畏、存戒惧、守底线。要坚持抓早抓小、防微杜渐，运用好监督执纪“四种形态”，特别是“第一种形态”，扩大函询提醒、核实谈话、诫勉谈话范围，使“咬耳扯袖、红脸出汗”成为常态，做到没有问题早防范，有了问题早发现，发现问题早整改。
+    </view>
+    <view>
+      把握严管厚爱“度量尺”。“严管”既是“紧箍咒”，也是“护身符”；“严管”既是管党治党的必然要求，也是对党员干部的关心关爱。要全面理解、辩证把握严管和厚爱、激励和约束的正确关系，把“严”字体现在日常管理和监督之中，把从严管理干部贯彻落实到干部队伍建设全过程。同时坚持正面激励与精准问责有机结合，把从严管理与人文关怀融为一体，该问责的问责，该关爱的关爱，该保护的保护。对受到处分的公职人员，也要及时做好跟踪回访工作，落实“惩前毖后，治病救人”的原则，引导激励干部创新创造、实干担当、攻坚克难。
+    </view>
+    <view>
+    铁军有铁纪，铁纪锻铁军。打好污染防治攻坚战到了啃“硬骨头”的关键时期，要紧紧围绕生态环保领域突出问题，多管齐下，综合施策，用严明的纪律推动生态文明建设和生态环境保护，为人民群众守好绿水青山、留住蓝天白云。（邱在亮）
+    </view>
+    <view class="article1"></view>
+    <view class='list-topic'><text>评论</text></view> 
+  <view class="desc1">
+    <view class="publish">
+      <view><image src="/images/list/head.png" style="width:36px;height:36px;margin-top:10px;"></image></view>
+      <view class="company1">
+        <view>e</view>
+        <view class="attr">
+           <text class="time1">保护环境，人人有责！</text>
+           <text class="mark1">回复</text>
+        </view>
+      </view>
+    </view>
+    <view class="btn">
+      <image src='' bindtap="onCollect" style="width:35px;height:35px;margin-right:15px;"></image>
+    </view>
+    </view>
+  </view>
+  <view class="comment">
+    <view class="write"><input type="text" placeholder="欢迎发表你的观点"/></view>
+    <view class="opr">
+       <image src="/images/list/talk.png" style="width:26px;height:26px;"></image>
+       <image src="/images/list/shoucang.png" style="width:26px;height:26px;"></image>
+       <image src="/images/list/share.png" style="width:26px;height:26px;"></image>
+    </view>
+  </view>
+</view>

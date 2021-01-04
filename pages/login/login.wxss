@@ -1,0 +1,94 @@
+/* pages/login/login.wxss */
+page{
+  background-image:url("http://m.qpic.cn/psb?/V13K6Ifc2tviWw/nbKsje32auZ2jlt0HuBIIaWD9SBGNCRSPNjOlKFuYJk!/b/dFMBAAAAAAAA&bo=OASABzgEgAcDGTw!&rf=viewer_4");
+  background-size:100% 100% ;
+  
+ background-repeat: no-repeat;
+}
+.container{
+  margin-top: 15%;
+
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ 
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin-buttom: 15px;
+  margin-top: 20%;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: rgba(170, 170, 170, 0);
+  font-size:14px;
+}
+.account{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.num{
+  font-size:16px;
+  width: 90%;
+  margin-top:15px;
+  margin-left:15px;
+  padding-left: 15px;
+
+}
+.title{
+   margin-right: 30px;
+   font-weight: bold;
+}
+.hr{
+  border: 1px solid #cccccc;
+  opacity: 0.2;
+  width: 90%;
+  margin: 0 auto;
+}
+.see{
+  position: absolute;
+  right: 20px;
+}
+.btn{
+  font-color: white;
+    width:80%;
+    height: 45px;
+    line-height: 45px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    border-radius: 30px;
+}
+.operate{
+   display: flex;
+   flex-direction: row;
+}
+.operate view{
+  margin: 0 auto;
+  margin-top:20px;
+  font-size: 14px;
+  color: #333333;
+}
+.login{
+  display: flex;
+  flex-direction: row;
+  margin-top:50px;
+}
+.login view{
+  margin: 0 auto;
+}
+#userinfo{margin-top: -50px;
+margin-bottom:60px;
+  width: 150rpx;
+  height:150rpx;
+  border-radius:50%;
+  display: flex;
+  overflow:hidden;
+  text-align: center;
+}
